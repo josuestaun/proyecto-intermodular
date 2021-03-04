@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activities.DificilActivity">
+
+    <fragment
+        android:id="@+id/dataFragment"
+        android:name="com.josue_martinez.memory.fragments.DatosFragment"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="30"
+        tools:layout="@layout/fragment_datos" />
+
+    <fragment
+        android:id="@+id/table8Fragment"
+        android:name="com.josue_martinez.memory.fragments.SixFragment"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="70"
+        tools:layout="@layout/fragment_eight" />
+
+</LinearLayout>

@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    tools:context=".fragments.ThreeFragment">
+
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageButton
+                android:id="@+id/imageButton1"
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:scaleType="centerCrop"
+                tools:src="@drawable/espadas" />
+
+            <ImageButton
+                android:id="@+id/imageButton2"
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:scaleType="centerCrop"
+                tools:src="@drawable/espadas" />
+
+            <ImageButton
+                android:id="@+id/imageButton3"
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:scaleType="centerCrop"
+                tools:src="@drawable/espadas" />
+            <ImageButton
+                android:id="@+id/imageButton4"
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:scaleType="centerCrop"
+                tools:src="@drawable/espadas" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <ImageButton
+                android:id="@+id/imageButton5"
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:scaleType="centerCrop"
+                tools:src="@drawable/espadas" />
+
+            <ImageButton
+                android:id="@+id/imageButton6"
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:scaleType="centerCrop"
+                tools:src="@drawable/espadas" />
+
+            <ImageButton
+                android:id="@+id/imageButton7"
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:scaleType="centerCrop"
+                tools:src="@drawable/espadas" />
+            <ImageButton
+                android:id="@+id/imageButton8"
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:scaleType="centerCrop"
+                tools:src="@drawable/espadas" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageButton
+                android:id="@+id/imageButton9"
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:scaleType="centerCrop"
+                tools:src="@drawable/espadas" />
+
+            <ImageButton
+                android:id="@+id/imageButton10"
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:scaleType="centerCrop"
+                tools:src="@drawable/espadas" />
+
+            <ImageButton
+                android:id="@+id/imageButton11"
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:scaleType="centerCrop"
+                tools:src="@drawable/espadas" />
+            <ImageButton
+                android:id="@+id/imageButton12"
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:scaleType="centerCrop"
+                tools:src="@drawable/espadas" />
+        </TableRow>
+
+    </TableLayout>
+
+</FrameLayout>

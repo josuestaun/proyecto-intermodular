@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Memory</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!-- creados por mí -->
+    <string name="creditos">Creditos</string>
+    <string name="diseño">Diseño: Josué Martínez</string>
+    <string name="arte">Arte: Josué Martínez</string>
+    <string name="programacion">Programación: Josué Martínez</string>
+    <string name="josue">Josué Martínez</string>
+    <string name="memoryGame">JUEGO MEMORY</string>
+    <string name="nombreMayus">NOMBRE</string>
+    <string name="nombreMinus">Escribe tu nombre:</string>
+    <string name="name">Nombre</string>
+    <string name="number">1357</string>
+    <string name="puntuacionMayus">PUNTUACIÓN</string>
+    <string name="puntuacionMinus">Puntuacion:</string>
+    <string name="facil">MODO FACIL (4 x 3)</string>
+    <string name="medio">MODO MEDIO (4 x 4)</string>
+    <string name="dificil">MODO DIFICIL (6 x 6)</string>
+    <string name="muydificil">MODO MUY DIFICIL (8 x 8)</string>
+    <string name="tiempo">Tiempo:</string>
+    <string name="cero">0</string>
+    <string name="modo">Modo de Juego:</string>
+    <string name="pepe">Pepe</string>
+    <string name="puntuaciones">Puntuaciones</string>
+    <string name="jugar">Jugar</string>
+    <string name="nuevajugada">Nueva Jugada</string>
+    <string name="seleccionardificultad">Selecciona la dificultad</string>
+    <string name="puntuacionesMayus">PUNTUACIONES</string>
+    <string name="modofacil">Facil</string>
+    <string name="modomedio">Medio</string>
+    <string name="mododificil">Dificil</string>
+    <string name="enhorabuena">¡¡ENHORABUENA!!</string>
+    <string name="hasganado">Has ganado:</string>
+</resources>

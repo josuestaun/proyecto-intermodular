@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    tools:context=".activities.MedioActivity">
+
+    <fragment
+        android:id="@+id/dataFragment"
+        android:name="com.josue_martinez.memory.fragments.DatosFragment"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="30"
+        android:layout_gravity="center"
+        tools:layout="@layout/fragment_datos" />
+
+    <fragment
+        android:id="@+id/table4Fragment"
+        android:name="com.josue_martinez.memory.fragments.FourFragment"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="70"
+        android:layout_gravity="center"
+        android:layout_marginLeft="500dp"
+        tools:layout="@layout/fragment_four" />
+
+</LinearLayout>
